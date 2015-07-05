@@ -23,6 +23,11 @@ Item {
 
         Text {
             id: textTitle
+            font.pixelSize: 30
+            anchors {
+                verticalCenter: parent.verticalCenter
+                horizontalCenter: parent.horizontalCenter
+            }
         }
 
         MouseArea {
